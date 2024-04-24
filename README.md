@@ -10,7 +10,7 @@ ibus-table-createdb -s zhengma.txt
 # 复制码表文件到码表目录
 cp zhengma.db /usr/share/ibus-table/tables
 
-＃ 复制图标文件到图标目录
+# 复制图标文件到图标目录
 cp zhengma.svg /usr/share/ibus-table/icons
 ```
 
@@ -21,11 +21,11 @@ root 用户好像只在 ibus 里添加郑码就行了。然后郑码就出现在
 
 ---
 
-词条数：
+- **词条数**：
     - zhengma: 135779
     - zhengma-premium: 431483
     - 构词字: 21002
 
-
+---
 
 作为郑码十多年的用户，在linux系统上输入中文，ibus郑码已不在软件源，网上找的词库又老旧，只好将在用rime的词库修改转换成ibus格式。
